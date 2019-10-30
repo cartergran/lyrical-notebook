@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MBtesting</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="inspiration">Inspiration</string>
+    <string name="add_note">Add Note</string>
+    <string name="search_bar">Search any song, title or lyrics</string>
+    <string name="video_key">watch?v=</string>
+    <string name="title_tag">●</string>
+    <string name="copied">Copied</string>
+    <string name="empty_cart">Lyrics Removed From Cart</string>
+    <string name="need_highlight">Please Highlight Text</string>
+    <string name="saved_lyrics"> Saved Lyrics </string>
+    <string name="words_that_rhyme"> Words That Rhyme </string>
+</resources>

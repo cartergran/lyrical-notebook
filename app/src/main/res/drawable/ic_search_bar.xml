@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"> xmlns:android="http://schemas.android.com/apk/res/android"
+    <item android:height="40dp"
+        android:width="50dp">
+        <shape
+            android:shape="rectangle" > xmlns:android="http://schemas.android.com/apk/res/android"
+            <solid android:color="@color/colorBlack" />
+            <stroke android:width="2dp" android:color="@color/colorWhite"/>
+            <corners android:bottomLeftRadius="3dp"
+                android:topLeftRadius="3dp" />
+        </shape>
+    </item>
+    <item android:width="32dp"
+        android:height="32dp"
+        android:gravity="center"
+        android:drawable="@drawable/ic_search" />
+</layer-list>

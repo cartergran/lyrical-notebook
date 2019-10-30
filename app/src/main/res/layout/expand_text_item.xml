@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4dp">
+
+    <com.libRG.CustomTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="10dp"
+        android:gravity="bottom"
+        android:singleLine="true"
+        android:textSize="16sp"
+        android:textColor="@color/colorWhite"
+        app:lib_setRoundedBorderColor="@color/colorWhite"
+        app:lib_setRadius="4dp"
+        app:lib_setStrokeWidth="2dp"
+        app:lib_setRoundedView="true"
+        app:lib_setShape="rectangle"/>
+
+    <com.ms.square.android.expandabletextview.ExpandableTextView
+        android:id="@+id/expand_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        expandableTextView:maxCollapsedLines="4"
+        expandableTextView:expandDrawable="@drawable/ic_down"
+        expandableTextView:collapseDrawable="@drawable/ic_up">
+
+        <TextView
+            android:id="@id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"/>
+
+        <ImageButton
+            android:id="@id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_gravity="end|bottom"
+            android:background="@android:color/transparent"/>
+
+    </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+</LinearLayout>
